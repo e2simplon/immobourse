@@ -10,12 +10,13 @@ class Controller {
     }
     
     protected function displayView($viewName) {
+        //if (isset($params)) {
+            // création de variables dynamiques (niveau 12)
+            foreach ($this->params as $varName => $value) {
+                ${$varName} = $value;
+            }
+        //}
 
-        // création de variables dynamiques (niveau 12)
-        foreach ($this->params as $varName => $value){
-            ${$varName} = $value;
-        }
-        
         $viewsFolder = "./views";
 
         include "$viewsFolder/header.php";

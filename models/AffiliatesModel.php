@@ -2,7 +2,7 @@
 
 class AffiliatesModel extends Model {
 
-    public function getAll(){
+    function getAll(){
         return $this->executeQuery("SELECT * FROM affilates");
     }
 }

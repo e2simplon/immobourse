@@ -11,7 +11,9 @@ define('DbPassword','mdpimmobourse');
 define('Database','immobourse');
 
 // Connexion mysqli
+
 $mysqli = mysqli_connect(hostServer, DbUser, DbPassword, Database);
+$mysqli->set_charset("utf8");
 
 if (!$mysqli) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
