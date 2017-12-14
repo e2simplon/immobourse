@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="ThemeStarz">
 
-    <link href="/assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="/assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/zabuto_calendar.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/zabuto_calendar.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
 
-    <link rel="stylesheet" href="/assets/css/trackpad-scroll-emulator.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/jquery.nouislider.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery.nouislider.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
@@ -37,7 +37,7 @@
     <header id="page-header">
         <nav>
             <div class="left">
-                <a href="/index.php" class="brand"><img class="imgTaille" src="/assets/img/logo.png" alt=""></a>
+                <a href="/index.php" class="brand"><img class="imgTaille" src="assets/img/logo.png" alt=""></a>
             </div>
             <!--end left-->
             <div class="right">

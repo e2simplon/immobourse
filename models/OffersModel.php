@@ -25,10 +25,7 @@ class OffersModel extends Model
 
     function minPrice()
     {
-
         return $this->executeQuery("SELECT MIN(price) as min_price FROM offers");
-
-
     }
 
     function maxPrice()

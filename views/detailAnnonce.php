@@ -3,19 +3,19 @@
     <div class="gallery detail">
         <div class="owl-carousel" data-owl-items="3" data-owl-loop="1" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="0" data-owl-margin="2" data-owl-nav-container="#gallery-nav">
             <div class="image">
-                <div class="bg-transfer"><img src="/assets/img/items/2_1.jpg" alt=""></div>
+                <div class="bg-transfer"><img src="assets/img/items/2_1.jpg" alt=""></div>
             </div>
             <div class="image">
-                <div class="bg-transfer"><img src="/assets/img/items/5_1.jpg" alt=""></div>
+                <div class="bg-transfer"><img src="assets/img/items/5_1.jpg" alt=""></div>
             </div>
             <div class="image">
-                <div class="bg-transfer"><img src="/assets/img/items/3_1.jpg" alt=""></div>
+                <div class="bg-transfer"><img src="assets/img/items/3_1.jpg" alt=""></div>
             </div>
             <div class="image">
-                <div class="bg-transfer"><img src="/assets/img/items/3_2.jpg" alt=""></div>
+                <div class="bg-transfer"><img src="assets/img/items/3_2.jpg" alt=""></div>
             </div>
             <div class="image">
-                <div class="bg-transfer"><img src="/assets/img/items/4_1.jpg" alt=""></div>
+                <div class="bg-transfer"><img src="assets/img/items/4_1.jpg" alt=""></div>
             </div>
         </div>
     </div>
@@ -86,16 +86,16 @@
 <a href="#" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/ddc5a536/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/assets/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58&libraries=places"></script>
-<script type="text/javascript" src="/assets/js/richmarker-compiled.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.nouislider.all.min.js"></script>
-<script type="text/javascript" src="/assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="/assets/js/custom.js"></script>
-<script type="text/javascript" src="/assets/js/maps.js"></script>
+<script type="text/javascript" src="assets/js/richmarker-compiled.js"></script>
+<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.nouislider.all.min.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<script type="text/javascript" src="assets/js/maps.js"></script>
 
 <script>
     rating(".visitor-rating");

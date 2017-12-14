@@ -159,7 +159,7 @@
             </table>
             <div id="carte">
                 <a class="fancybox" target="_blank" href="http://www.cci.fr/web/organisation-du-reseau/sites-internet-et-courriels-des-c-r-ci">
-                    <img src="/assets/img/France.png" alt="CCI Chambres de Commerce et de l'Industrie des Vosges"/>
+                    <img src="assets/img/France.png" alt="CCI Chambres de Commerce et de l'Industrie des Vosges"/>
                 </a>
             </div>
         </div>
@@ -188,24 +188,24 @@
 <!--end page-wrapper-->
 <a href="#" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
 
-<script type="text/javascript" src="/assets/js/jquery-2.2.1.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="/assets/bootstrap/js/bootstrap.js"></script>
-<script type="text/javascript" src="/assets/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58&libraries=places"></script>
-<script type="text/javascript" src="/assets/js/richmarker-compiled.js"></script>
-<script type="text/javascript" src="/assets/js/markerclusterer_packed.js"></script>
-<script type="text/javascript" src="/assets/js/infobox.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="/assets/js/moment.js"></script>
-<script type="text/javascript" src="/assets/js/bootstrap-datetimepicker.min.js"></script>
-<script type="text/javascript" src="/assets/js/icheck.min.js"></script>
-<script type="text/javascript" src="/assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.nouislider.all.min.js"></script>
+<script type="text/javascript" src="assets/js/richmarker-compiled.js"></script>
+<script type="text/javascript" src="assets/js/markerclusterer_packed.js"></script>
+<script type="text/javascript" src="assets/js/infobox.js"></script>
+<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="assets/js/moment.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="assets/js/icheck.min.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.nouislider.all.min.js"></script>
 
-<script type="text/javascript" src="/assets/js/custom.js"></script>
-<script type="text/javascript" src="/assets/js/maps.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<script type="text/javascript" src="assets/js/maps.js"></script>
 
 <script>
     var optimizedDatabaseLoading = 0;

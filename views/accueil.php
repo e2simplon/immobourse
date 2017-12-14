@@ -17,7 +17,7 @@
                         </div>
                         <div class="col-md-2 col-sm-12">
                             <div class="form-group">
-                                <button type="submit" data-ajax-response="map" data-ajax-data-file="/assets/external/data_2.php" data-ajax-auto-zoom="1" class="btn btn-primary pull-right darker">Tous</button>
+                                <button type="submit" data-ajax-response="map" data-ajax-data-file="assets/external/data_2.php" data-ajax-auto-zoom="1" class="btn btn-primary pull-right darker">Tous</button>
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-12">
@@ -104,7 +104,7 @@
                     <div class="item">
                         <a href="index.php?page=detailAnnonce&idAnnonce=<?= $offer->idO ?>">
                             <div class="image bg-transfer">
-                                <img src="/assets/img/items/<?= $offer->picture_url ?>" alt="">
+                                <img src="assets/img/items/<?= $offer->picture_url ?>" alt="">
                             </div>
                         </a>
                         <a class="lienDescription" href="/index.php?page=detailAnnonce&idAnnonce=<?= $offer->idO ?>">
@@ -125,7 +125,7 @@
                         <div class="item">
                             <a href="index.php?page=detailAnnonce&idAnnonce=<?= $offer->idO ?>">
                                 <div class="image bg-transfer">
-                                    <img src="/assets/img/items/<?= $offer->picture_url ?>" alt="">
+                                    <img src="assets/img/items/<?= $offer->picture_url ?>" alt="">
                                 </div>
                             </a>
                             <a class="lienDescription" href="/index.php?page=detailAnnonce&idAnnonce=<?= $offer->idO ?>">
@@ -145,7 +145,7 @@
                         <div class="item">
                             <a href="index.php?page=detailAnnonce&idAnnonce=<?= $offer->idO ?>">
                                 <div class="image bg-transfer">
-                                    <img src="/assets/img/items/<?= $offer->picture_url ?>" alt="">
+                                    <img src="assets/img/items/<?= $offer->picture_url ?>" alt="">
                                 </div>
                             </a>
                             <a class="lienDescription" href="/index.php?page=detailAnnonce&idAnnonce=<?= $offer->idO ?>">
@@ -165,7 +165,7 @@
                         <div class="item">
                             <a href="index.php?page=detailAnnonce&idAnnonce=<?= $offer->idO ?>">
                                 <div class="image bg-transfer">
-                                    <img src="/assets/img/items/<?= $offer->picture_url ?>" alt="">
+                                    <img src="assets/img/items/<?= $offer->picture_url ?>" alt="">
                                 </div>
                             </a>
                             <a class="lienDescription" href="/index.php?page=detailAnnonce&idAnnonce=<?= $offer->idO ?>">
@@ -184,7 +184,7 @@
 
             <div class="row">
                 <div class="center">
-                    <a href="listing.html" style="color: #014479" class="btn btn-primary btn-light-frame btn-rounded btn-framed arrow">Voir toutes les offres</a>
+                    <a href="views/listoffres.php" style="color: #014479" class="btn btn-primary btn-light-frame btn-rounded btn-framed arrow">Voir toutes les offres</a>
                 </div>
             </div>
         </div>
@@ -194,7 +194,7 @@
         <hr>
     </div>
 
-    <div class="container">
+  <!--  <div class="container">
             <div class="center section-title">
                 <h2>Nos partenaires</h2>
             </div>
@@ -209,7 +209,7 @@
                 <?php } ?>
 
             </div>
-            <!--
+            
             <div class="slideshow">
                 <ul>
                     <li><img src="/assets/img/default.png" alt="" width="350" height="200" /></li>
@@ -218,8 +218,127 @@
                     <li><img src="/assets/img/default.png" alt="" width="350" height="200" /></li>
                 </ul>
             </div>
-            -->
-        </div>
+           
+        </div>-->
+
+        <br><br>
+
+                <section class="block background-is-dark">
+            <div class="container">
+                <div class="section-title vertical-aligned-elements">
+                    <div class="element">
+                        <h2>Les Partenaires</h2>
+                    </div>
+                    <div class="element text-align-right">
+                        <a href="views/listpros.php" class="btn btn-framed btn-rounded btn-default invisible-on-mobile">Voir tous</a>
+                        <div id="gallery-nav"></div>
+                    </div>
+                </div>
+                <!--end section-title-->
+
+
+            </div>
+            <div class="gallery featured">
+                <div class="owl-carousel" data-owl-items="6" data-owl-loop="1" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="1" data-owl-nav-container="#gallery-nav">
+
+                    <div class="item featured" data-id="1">
+                        <a href="index.php?page=detailPro">
+                            <div class="description">
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/<?= $affiliate->logo ?>" alt=""></a>
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+
+                    <div class="item featured" data-id="1">
+                        <a href="index.php?page=detailPro">
+                            <div class="description">
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/<?= $affiliate->logo ?>" alt=""></a>
+                            </div>
+                            <!--end image-->
+                        </a>
+
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                                        
+                    <div class="item featured" data-id="1">
+                        <a href="index.php?page=detailPro">
+                            <div class="description">
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/<?= $affiliate->logo ?>" alt=""></a>
+                            </div>
+                            <!--end image-->
+                        </a>
+
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                                       
+                     <div class="item featured" data-id="1">
+                        <a href="index.php?page=detailPro">
+                            <div class="description">
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/<?= $affiliate->logo ?>" alt=""></a>
+                            </div>
+                            <!--end image-->
+                        </a>
+
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+
+                    <div class="item featured" data-id="1">
+                        <a href="index.php?page=detailPro">
+                            <div class="description">
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/<?= $affiliate->logo ?>" alt=""></a>
+                            </div>
+                            <!--end image-->
+                        </a>
+
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                                        <div class="item featured" data-id="1">
+                        <a href="index.php?page=detailPro">
+                            <div class="description">
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/<?= $affiliate->logo ?>" alt=""></a>
+                            </div>
+                            <!--end image-->
+                        </a>
+
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+
+                   
+
+                </div>
+            </div>
+            <!--end gallery-->
+            <div class="background-wrapper">
+                <div class="background-color background-color-default"></div>
+            </div>
+            <!--end background-wrapper-->
+        </section>
 <br>
 <br>
 </div>
