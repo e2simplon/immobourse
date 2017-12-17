@@ -6,8 +6,8 @@
 ini_set('display_errors',1);
 header('Content-Type: text/html; charset=utf-8');
 define('hostServer','127.0.0.1');
-define('DbUser','root');
-define('DbPassword','chacha');
+define('DbUser','immobourse');
+define('DbPassword','mdpimmobourse');
 define('Database','immobourse');
 
 define('PageTitle','La bourse de l\'immobilier d\'entrprise dans les Vosges');
