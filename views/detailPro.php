@@ -4,7 +4,7 @@
         <div class="col-md-12 col-sm-12">
             <div class="box" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
                 <div style="width: 300px; height: 150px; border: 1px solid black;">
-                    <img style="width: 100%; height: 100%;" src="/assets/img/logo-1.png" alt="logo">
+                    <img style="width: 100%; height: 100%;" src="assets/img/logo-1.png" alt="logo">
                 </div>
                 <div style="width:100%; display: flex; flex-direction: column; flex:1; padding: 0 15px; align-items: stretch; justify-content: space-between;">
                     <div style="display: flex; justify-content: space-between;">
@@ -64,7 +64,7 @@
                             <figure><i  style="color: white;" class="fa fa-times" aria-hidden="true"></i></figure>
                         </div>
                         <div class="image bg-transfer">
-                            <img src="/assets/img/items/2_1.jpg" alt="">
+                            <img src="assets/img/items/2_1.jpg" alt="">
                         </div>
                     </a>
                     <a class="lienDescription" href="/detail.html">
@@ -86,7 +86,7 @@
                             <figure><i  style="color: white;" class="fa fa-times" aria-hidden="true"></i></figure>
                         </div>
                         <div class="image bg-transfer">
-                            <img src="/assets/img/items/3_1.jpg" alt="">
+                            <img src="assets/img/items/3_1.jpg" alt="">
                         </div>
                     </a>
                     <a class="lienDescription" href="/detail.html">
@@ -108,7 +108,7 @@
                             <figure><i  style="color: white;" class="fa fa-times" aria-hidden="true"></i></figure>
                         </div>
                         <div class="image bg-transfer">
-                            <img src="/assets/img/items/4_1.jpg" alt="">
+                            <img src="assets/img/items/4_1.jpg" alt="">
                         </div>
                     </a>
                     <a class="lienDescription" href="/detail.html">
@@ -130,7 +130,7 @@
                             <figure><i  style="color: white;" class="fa fa-times" aria-hidden="true"></i></figure>
                         </div>
                         <div class="image bg-transfer">
-                            <img src="/assets/img/items/5_1.jpg" alt="">
+                            <img src="assets/img/items/5_1.jpg" alt="">
                         </div>
                     </a>
                     <a class="lienDescription" href="/detail.html">
@@ -152,7 +152,7 @@
                             <figure><i  style="color: white;" class="fa fa-times" aria-hidden="true"></i></figure>
                         </div>
                         <div class="image bg-transfer">
-                            <img src="/assets/img/items/6_1.jpg" alt="">
+                            <img src="assets/img/items/6_1.jpg" alt="">
                         </div>
                     </a>
                     <a class="lienDescription" href="/detail.html">
@@ -174,7 +174,7 @@
                             <figure><i  style="color: white;" class="fa fa-times" aria-hidden="true"></i></figure>
                         </div>
                         <div class="image bg-transfer">
-                            <img src="/assets/img/items/2_1.jpg" alt="">
+                            <img src="assets/img/items/2_1.jpg" alt="">
                         </div>
                     </a>
                     <a class="lienDescription" href="/detail.html">
@@ -196,7 +196,7 @@
                             <figure><i  style="color: white;" class="fa fa-times" aria-hidden="true"></i></figure>
                         </div>
                         <div class="image bg-transfer">
-                            <img src="/assets/img/items/3_1.jpg" alt="">
+                            <img src="assets/img/items/3_1.jpg" alt="">
                         </div>
                     </a>
                     <a class="lienDescription" href="/detail.html">
@@ -218,7 +218,7 @@
                             <figure><i  style="color: white;" class="fa fa-times" aria-hidden="true"></i></figure>
                         </div>
                         <div class="image bg-transfer">
-                            <img src="/assets/img/items/3_1.jpg" alt="">
+                            <img src="assets/img/items/3_1.jpg" alt="">
                         </div>
                     </a>
                     <a class="lienDescription" href="/detail.html">
