@@ -16,6 +16,7 @@ class AccueilController extends Controller
         $this->set('maxPrice', $offersModel->maxPrice());
         $this->set('minSurface', $offersModel->minSurface());
         $this->set('maxSurface', $offersModel->maxSurface());
+        $this->MetaDataHeader->setTitle('Trouloulou');
         
         // affichage de la vue
         $this->displayView('accueil');

@@ -10,6 +10,10 @@ define('DbUser','immobourse');
 define('DbPassword','mdpimmobourse');
 define('Database','immobourse');
 
+define('PageTitle','La bourse de l\'immobilier d\'entrprise dans les Vosges');
+define('PageDescription','La bourse des locaux professionnels dans les Vosges, trouvez un espace coworking ou un entrepot proche de chez vous.');
+define('PageKeywords','vosges,epinal, saint-dié, remiremont, usine, bureau, entrepot');
+
 // Connexion mysqli
 
 $mysqli = mysqli_connect(hostServer, DbUser, DbPassword, Database);

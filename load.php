@@ -1,4 +1,9 @@
 <?php
+
+
+// services
+include 'services/MetaManager.php';
+
 // controlleurs
 include 'controllers/Controller.php';
 include 'controllers/AccueilController.php';
@@ -22,6 +27,7 @@ include 'models/VillesModel.php';
 include 'models/ZonesActivitesModel.php';
 include 'models/OffersTypesModel.php';
 include 'models/TransactionsTypesModel.php';
+
 
 // router
 include 'Router.php';

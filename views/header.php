@@ -28,7 +28,9 @@
         });
     </script>
 
-    <title>La bourse des locaux et du foncier d'entreprise</title>
+    <title><?php echo $pageTitle; ?></title>
+    <meta name="description" content="<?php echo $pageDescription; ?>" />
+    <meta name="keywords" content="<?php echo $pageKeywords; ?>" />
 
 </head>
 
