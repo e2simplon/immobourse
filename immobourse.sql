@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Jeu 14 Décembre 2017 à 09:14
+-- Généré le :  Lun 18 Décembre 2017 à 16:24
 -- Version du serveur :  5.7.20-0ubuntu0.16.04.1
 -- Version de PHP :  7.0.22-0ubuntu0.16.04.1
 
@@ -47,14 +47,14 @@ CREATE TABLE `affilates` (
 --
 
 INSERT INTO `affilates` (`id`, `nom`, `type`, `address`, `phone`, `contact_name`, `email`, `site`, `societe`, `prenom`, `id_ville`, `couleur`, `logo`) VALUES
-(1, 'imaj immo', 'agence immobiliÃ¨re', 'centre ville, epinal', 0309090909, 'madame', 'imajimmo@hotmail.fr', '', NULL, NULL, 0, '#FFFFFF', 'logo-1.png'),
-(2, '', 'professionnel', '6 Rue d Epinal - ', 0637881940, NULL, 'julien.b@gdim.fr', 'https://www.agdim.fr/', 'AGDIM ', NULL, 16, '#FFFFFF', 'default.png'),
-(3, NULL, 'professionnel', '9 Quai Contades -', 0329822626, NULL, 'contact@delbet.fr', 'http://www.delbet.fr/', 'Agence DELBET', NULL, 5, '#FFFFFF', 'default.png'),
-(4, NULL, 'professionel', '108 rue d Alsace', 0673481889, NULL, 'johann.grandgirard@orange.fr', 'http://www.immod.fr/', 'Agence ImmoD.fr', NULL, 17, '#FFFFFF', 'default.png'),
-(5, NULL, 'professionnel', '1 Place Emile Stein', 0684364610, NULL, 'gdevesinne@gmail.com', 'http://www.apostrophes.fr/', 'APOSTROPHES', NULL, 5, '#FFFFFF', 'default.png'),
-(6, NULL, 'professionnel', '22 PLace des Vosges', 0329333000, NULL, 'philipe.bigaut@fonciafrance.fr', 'http://agence.foncia.com/epinal-88000/agence-immobiliere/foncia-aubert-1871', 'FONCIA Aubert', NULL, 5, '#FFFFFF', 'default.png'),
-(7, NULL, 'professionnel', '8 rue Dauphine', 0608729020, NULL, 'philipe.bigaut@fonciafrance.fr', 'http://agence.foncia.com/saint-die-des-vosges-88100/agence-immobiliere/foncia-dauphine-1686', 'FONCIA Dauphine', NULL, 12, '#FFFFFF', 'default.png'),
-(8, NULL, 'professionnel', ' 50 Rue Charles de Gaulle ', 0329636030, NULL, 'marie.vaxelaire@fonciafrance.fr', 'http://agence.foncia.com/gerardmer-88400/agence-immobiliere/foncia-pont-du-lac-1687', 'FONCIA Pont du Lac', NULL, 6, '#FFFFFF', 'default.png');
+(1, 'imaj immo', 'agence immobiliÃ¨re', 'centre ville, epinal', 0309090909, 'madame', 'imajimmo@hotmail.fr', '', NULL, NULL, 0, '#999966', 'logo-1.png'),
+(2, '', 'professionnel', '6 Rue d Epinal - ', 0637881940, NULL, 'julien.b@gdim.fr', 'https://www.agdim.fr/', 'AGDIM ', NULL, 16, '#ff6699', 'default.png'),
+(3, NULL, 'professionnel', '9 Quai Contades -', 0329822626, NULL, 'contact@delbet.fr', 'http://www.delbet.fr/', 'Agence DELBET', NULL, 5, '#ffcc00', 'default.png'),
+(4, NULL, 'professionel', '108 rue d Alsace', 0673481889, NULL, 'johann.grandgirard@orange.fr', 'http://www.immod.fr/', 'Agence ImmoD.fr', NULL, 17, '#660066', 'default.png'),
+(5, NULL, 'professionnel', '1 Place Emile Stein', 0684364610, NULL, 'gdevesinne@gmail.com', 'http://www.apostrophes.fr/', 'APOSTROPHES', NULL, 5, '#cc33ff', 'default.png'),
+(6, NULL, 'professionnel', '22 PLace des Vosges', 0329333000, NULL, 'philipe.bigaut@fonciafrance.fr', 'http://agence.foncia.com/epinal-88000/agence-immobiliere/foncia-aubert-1871', 'FONCIA Aubert', NULL, 5, '#0066cc', 'default.png'),
+(7, NULL, 'professionnel', '8 rue Dauphine', 0608729020, NULL, 'philipe.bigaut@fonciafrance.fr', 'http://agence.foncia.com/saint-die-des-vosges-88100/agence-immobiliere/foncia-dauphine-1686', 'FONCIA Dauphine', NULL, 12, '#00ff00', 'default.png'),
+(8, NULL, 'professionnel', ' 50 Rue Charles de Gaulle ', 0329636030, NULL, 'marie.vaxelaire@fonciafrance.fr', 'http://agence.foncia.com/gerardmer-88400/agence-immobiliere/foncia-pont-du-lac-1687', 'FONCIA Pont du Lac', NULL, 6, '#ff0000', 'default.png');
 
 -- --------------------------------------------------------
 
@@ -98,19 +98,20 @@ CREATE TABLE `offers` (
   `priceM2` smallint(5) UNSIGNED DEFAULT NULL,
   `priceM2Taxe` tinyint(1) NOT NULL DEFAULT '0',
   `dateDispo` date DEFAULT NULL,
-  `id_ville` int(10) UNSIGNED NOT NULL
+  `id_ville` int(10) UNSIGNED NOT NULL,
+  `suiviMail` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Contenu de la table `offers`
 --
 
-INSERT INTO `offers` (`id`, `description`, `bridge_height`, `picture_url`, `address`, `subdividable`, `surface`, `price`, `suiviName`, `suiviTel`, `pdf_url`, `latitude`, `longitude`, `commission_included`, `transaction_types_ids`, `offer_types_ids`, `affilate_id`, `id_zoneActivite`, `priceTaxe`, `priceM2`, `priceM2Taxe`, `dateDispo`, `id_ville`) VALUES
-(2, '800m² de plein pied\r\ntransformation possible à la demande pour bureau\r\ngrand paking\r\nprix indiqué pour commerce, à étudier pour transformation en bureau\r\nSurface (en m²) : 800 (Surface divisible)\r\nPrix : 50 €/m²\r\nLocalisation (canton par défaut) : EPINAL ZA : Zone de la Voivre\r\nHauteur sous faîtage :\r\nCommission incluse : Non précisé\r\nRéférence offre commercialisateur : ', NULL, '6_1.jpg', 'Zone de la Voivre', 1, 800, 40000, 'MARX Catherine', '0675660784', 'ficheoffre_pdf.php?id=35', 40.7344, -73.8671, 0, '1', '1,2', 9, NULL, 0, 50, 0, NULL, 5),
-(3, 'blfgsf ii g dghi d dhihnvlkdfn fv  fh ihoi v xkvbfx fvj nf cjk bkbjfvbjfdv\r\n ufhv fv  flxbnl kn vmk\r\n uxv lknv f hbbn,bv fgbn   gfd h hgf gh hgf  fgh f cdx dfg hg vfc dfgh..\r\n\r\n\r\nkjhgfd fj hgf d fgh jhgfds dfgh jh gvfcdx xsdfgh gf cdxdfghj hgfd fghjko poi uyt rez ertyuj nbvgfr tyu ijh gftyuk,jn\r\ngh jkljhgfgh jhgf df ghjjnd\r\nhj gfdfgh hgf ghjhg.', 5, '2_1.jpg', 'zone de l\'imaginaire', NULL, 400, 20000, NULL, NULL, 'ficheoffre_pdf.php?id=35', 40.7344, -73.8671, 1, '2', '3', 5, 2, 1, NULL, 0, '2018-01-01', 5),
-(4, ' a a a a aaaaaaaaaaa dhihnvlkdfn fv  fh ihoi v xkvbfx fvj nf cjk bkbjfvbjfdv\r\n ufhv fv  flxbnl kn vmk\r\n uxv lknvaaa aaaaf hbbn,bv fgbn   gfd h hgf gh hgf  fgh f cdx dfg hg vfc dfgh\r\nkjhgfd fj hgf d fgh jhgfds dfgh jh gvfcdx xsdfgh gf cdxdfgh aaaaaaaaaaa a a aj hgfd fghjko poi uyt rez ertyuj nbvgfr tyu ijh gftyuk,jn\r\ngh jkljhgfgh jhgf df ghjjnd\r\nhj gfdfgh hgf ghjhg.', NULL, '3_1.jpg', '7 rue du centre ville', 1, 100, 10000, 'MONSIEUR monsieur', '0675660784', 'ficheoffre_pdf.php?id=34', 40.7344, -73.8671, 0, '2,3', '5', 3, 1, 1, NULL, 0, '2018-01-02', 5),
-(5, ' bbbbbb b  b b b b b b  b bbbbbb dhihnvlkdfn fv  fh ihoi v xkvbfx fvj nf cjk bgf d fgh jhgfds dfgh jh gvfcdx xsdfgh gf cdxdfgh bbbbbbbb a a aj hgfd fghjko poi uyt rez ertyuj nbvgfr tyu ijh gftyuk,jn\r\ngh jkljhgfgh jhgf df ghjjnd\r\nhj gfdfgh hgf ghjhg.', NULL, '4_1.jpg', '7 rue du centre ville', 0, 500, 15000, 'MADAME monsieur', '0675660784', 'ficheoffre_pdf.php?id=4', 40.7344, -73.8671, 1, '3', '8', 3, NULL, 0, 60, 1, '2017-12-01', 1),
-(6, 'cccc c c c c ccccccc ccccccccccc cc dhihnvlkdfn fv  fh ihoi v xkvbfx fvj nf cjk bgf d fgh jhgfds dfgh jh gvfcdx xsdfgh gf cdxdfgh bbbbbbbb a a aj hgfd fghjkccccc ertyuj nbvgfr tyu ijh gftyuk,jn\r\ngh jkljhgfgh jhgf df ghjjnd\r\nhj gfdfgh hgf ghjhg.cccc  c c c c cccccc', 12, '5_1.jpg', '12 rue de la mairie', 1, 500, NULL, 'MONSIEUR madame', '0675660784', 'ficheoffre_pdf.php?id=5', 40.7344, -73.8671, 0, '3,2', '6', 2, 3, 0, 30, 1, '2018-01-11', 2);
+INSERT INTO `offers` (`id`, `description`, `bridge_height`, `picture_url`, `address`, `subdividable`, `surface`, `price`, `suiviName`, `suiviTel`, `pdf_url`, `latitude`, `longitude`, `commission_included`, `transaction_types_ids`, `offer_types_ids`, `affilate_id`, `id_zoneActivite`, `priceTaxe`, `priceM2`, `priceM2Taxe`, `dateDispo`, `id_ville`, `suiviMail`) VALUES
+(2, '800m² de plein pied\r\ntransformation possible à la demande pour bureau\r\ngrand paking\r\nprix indiqué pour commerce, à étudier pour transformation en bureau\r\nSurface (en m²) : 800 (Surface divisible)\r\nPrix : 50 €/m²\r\nLocalisation (canton par défaut) : EPINAL ZA : Zone de la Voivre\r\nHauteur sous faîtage :\r\nCommission incluse : Non précisé\r\nRéférence offre commercialisateur : ', NULL, '6_1.jpg', 'Zone de la Voivre', 1, 800, 40000, 'MARX Catherine', '0675660784', 'ficheoffre_pdf.php?id=35', 40.7344, -73.8671, 0, '1', '1,2', 9, NULL, 0, 50, 0, NULL, 5, NULL),
+(3, 'blfgsf ii g dghi d dhihnvlkdfn fv  fh ihoi v xkvbfx fvj nf cjk bkbjfvbjfdv\r\n ufhv fv  flxbnl kn vmk\r\n uxv lknv f hbbn,bv fgbn   gfd h hgf gh hgf  fgh f cdx dfg hg vfc dfgh..\r\n\r\n\r\nkjhgfd fj hgf d fgh jhgfds dfgh jh gvfcdx xsdfgh gf cdxdfghj hgfd fghjko poi uyt rez ertyuj nbvgfr tyu ijh gftyuk,jn\r\ngh jkljhgfgh jhgf df ghjjnd\r\nhj gfdfgh hgf ghjhg.', 5, '2_1.jpg', 'zone de l\'imaginaire', NULL, 400, 20000, NULL, NULL, 'ficheoffre_pdf.php?id=35', 40.7344, -73.8671, 1, '2', '3', 5, 2, 1, NULL, 0, '2018-01-01', 5, NULL),
+(4, ' a a a a aaaaaaaaaaa dhihnvlkdfn fv  fh ihoi v xkvbfx fvj nf cjk bkbjfvbjfdv\r\n ufhv fv  flxbnl kn vmk\r\n uxv lknvaaa aaaaf hbbn,bv fgbn   gfd h hgf gh hgf  fgh f cdx dfg hg vfc dfgh\r\nkjhgfd fj hgf d fgh jhgfds dfgh jh gvfcdx xsdfgh gf cdxdfgh aaaaaaaaaaa a a aj hgfd fghjko poi uyt rez ertyuj nbvgfr tyu ijh gftyuk,jn\r\ngh jkljhgfgh jhgf df ghjjnd\r\nhj gfdfgh hgf ghjhg.', NULL, '3_1.jpg', '7 rue du centre ville', 1, 100, 10000, 'MONSIEUR monsieur', '0675660784', 'ficheoffre_pdf.php?id=34', 40.7344, -73.8671, 0, '2,3', '5', 3, 1, 1, NULL, 0, '2018-01-02', 5, NULL),
+(5, ' bbbbbb b  b b b b b b  b bbbbbb dhihnvlkdfn fv  fh ihoi v xkvbfx fvj nf cjk bgf d fgh jhgfds dfgh jh gvfcdx xsdfgh gf cdxdfgh bbbbbbbb a a aj hgfd fghjko poi uyt rez ertyuj nbvgfr tyu ijh gftyuk,jn\r\ngh jkljhgfgh jhgf df ghjjnd\r\nhj gfdfgh hgf ghjhg.', NULL, '4_1.jpg', '7 rue du centre ville', 0, 500, 15000, 'MADAME monsieur', '0675660784', 'ficheoffre_pdf.php?id=4', 40.7344, -73.8671, 1, '3', '8', 3, NULL, 0, 60, 1, '2017-12-01', 1, NULL),
+(6, 'cccc c c c c ccccccc ccccccccccc cc dhihnvlkdfn fv  fh ihoi v xkvbfx fvj nf cjk bgf d fgh jhgfds dfgh jh gvfcdx xsdfgh gf cdxdfgh bbbbbbbb a a aj hgfd fghjkccccc ertyuj nbvgfr tyu ijh gftyuk,jn\r\ngh jkljhgfgh jhgf df ghjjnd\r\nhj gfdfgh hgf ghjhg.cccc  c c c c cccccc', 12, '5_1.jpg', '12 rue de la mairie', 1, 500, NULL, 'MONSIEUR madame', '0675660784', 'ficheoffre_pdf.php?id=5', 40.7344, -73.8671, 0, '3,2', '6', 2, 3, 0, 30, 1, '2018-01-11', 2, NULL);
 
 -- --------------------------------------------------------
 
